@@ -1,12 +1,15 @@
 def calculate_square_area(side):
     return side ** 2
 
+
 def calculate_rectangle_area(length, width):
     return length * width
+
 
 def calculate_circle_area(radius):
     import math
     return math.pi * (radius ** 2)
+
 
 def main():
     print("Калькулятор площадей фигур")
@@ -35,6 +38,7 @@ def main():
     
     else:
         print("Некорректный ввод. Пожалуйста, выберите номер от 1 до 3.")
+
 
 if __name__ == "__main__":
     main()
