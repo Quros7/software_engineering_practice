@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacearea__calculator" xml:lang="ru">
+<title>Пространство имен area_calculator</title>
+<indexterm><primary>area_calculator</primary></indexterm>
+<simplesect>
+    <title>Функции    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacearea__calculator_1acd19369786876d042d57f4ecc9167ae0">calculate_square_area</link> (side)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1aeabc5c99b9e8e6f67ec18d948b08aeb3">calculate_rectangle_area</link> (length, width)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1a50f993edd0901b813f14ee29441c48de">calculate_circle_area</link> (radius)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1a01bc59613eda4c7bc168ab95d2d1ca33">calculate_triangle_area</link> (base, height)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1ab9b83139f5aba22dde6e5b486711c02b">calculate_parallelogram_area</link> (base, height)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1a5ea12d38c13d1ae283e04b449c640d1d">calculate_trapezoid_area</link> (base1, base2, height)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1a29506b26bfb76607e3278caed091539b">calculate_polygon_area</link> (coords)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1aaaaadcefab0ca0f71d4c0934af484996">compare_areas</link> (area1, area2)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacearea__calculator_1ac432cff2fb4a29091467876d13fd5f49">main</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para><literallayout><computeroutput>Калькулятор площадей фигур
+
+Это консольное приложение, которое позволяет пользователю
+вычислять площади различных геометрических фигур, таких как
+квадраты, прямоугольники, круги, треугольники, параллелограммы,
+трапеции и многоугольники. Программа также предоставляет
+возможность сравнения площадей двух фигур.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Функции</title>
+<anchor xml:id="_namespacearea__calculator_1a50f993edd0901b813f14ee29441c48de"/><section>
+    <title>calculate_circle_area()</title>
+<indexterm><primary>calculate_circle_area</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>calculate_circle_area</secondary></indexterm>
+<para><computeroutput>area_calculator.calculate_circle_area ( radius)</computeroutput></para>
+<para><literallayout><computeroutput>Вычисляет площадь круга.
+
+:param radius: Радиус круга.
+:return: Площадь круга (float).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1ab9b83139f5aba22dde6e5b486711c02b"/><section>
+    <title>calculate_parallelogram_area()</title>
+<indexterm><primary>calculate_parallelogram_area</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>calculate_parallelogram_area</secondary></indexterm>
+<para><computeroutput>area_calculator.calculate_parallelogram_area ( base,  height)</computeroutput></para>
+<para><literallayout><computeroutput>Вычисляет площадь параллелограмма.
+
+:param base: Длина основания параллелограмма.
+:param height: Высота параллелограмма.
+:return: Площадь параллелограмма (float).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1a29506b26bfb76607e3278caed091539b"/><section>
+    <title>calculate_polygon_area()</title>
+<indexterm><primary>calculate_polygon_area</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>calculate_polygon_area</secondary></indexterm>
+<para><computeroutput>area_calculator.calculate_polygon_area ( coords)</computeroutput></para>
+<para><literallayout><computeroutput>Вычисляет площадь многоугольника по координатам его вершин.
+
+:param coords: Список координат вершин многоугольника [(x1, y1), (x2, y2), ...].
+:return: Площадь многоугольника (float).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1aeabc5c99b9e8e6f67ec18d948b08aeb3"/><section>
+    <title>calculate_rectangle_area()</title>
+<indexterm><primary>calculate_rectangle_area</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>calculate_rectangle_area</secondary></indexterm>
+<para><computeroutput>area_calculator.calculate_rectangle_area ( length,  width)</computeroutput></para>
+<para><literallayout><computeroutput>Вычисляет площадь прямоугольника.
+
+:param length: Длина прямоугольника.
+:param width: Ширина прямоугольника.
+:return: Площадь прямоугольника (float).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1acd19369786876d042d57f4ecc9167ae0"/><section>
+    <title>calculate_square_area()</title>
+<indexterm><primary>calculate_square_area</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>calculate_square_area</secondary></indexterm>
+<para><computeroutput>area_calculator.calculate_square_area ( side)</computeroutput></para>
+<para><literallayout><computeroutput>Вычисляет площадь квадрата.
+
+:param side: Длина стороны квадрата.
+:return: Площадь квадрата (float).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1a5ea12d38c13d1ae283e04b449c640d1d"/><section>
+    <title>calculate_trapezoid_area()</title>
+<indexterm><primary>calculate_trapezoid_area</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>calculate_trapezoid_area</secondary></indexterm>
+<para><computeroutput>area_calculator.calculate_trapezoid_area ( base1,  base2,  height)</computeroutput></para>
+<para><literallayout><computeroutput>Вычисляет площадь трапеции.
+
+:param base1: Длина первого основания трапеции.
+:param base2: Длина второго основания трапеции.
+:param height: Высота трапеции.
+:return: Площадь трапеции (float).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1a01bc59613eda4c7bc168ab95d2d1ca33"/><section>
+    <title>calculate_triangle_area()</title>
+<indexterm><primary>calculate_triangle_area</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>calculate_triangle_area</secondary></indexterm>
+<para><computeroutput>area_calculator.calculate_triangle_area ( base,  height)</computeroutput></para>
+<para><literallayout><computeroutput>Вычисляет площадь треугольника.
+
+:param base: Длина основания треугольника.
+:param height: Высота треугольника.
+:return: Площадь треугольника (float).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1aaaaadcefab0ca0f71d4c0934af484996"/><section>
+    <title>compare_areas()</title>
+<indexterm><primary>compare_areas</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>compare_areas</secondary></indexterm>
+<para><computeroutput>area_calculator.compare_areas ( area1,  area2)</computeroutput></para>
+<para><literallayout><computeroutput>Сравнивает площади двух фигур.
+
+:param area1: Площадь первой фигуры (float).
+:param area2: Площадь второй фигуры (float).
+:return: Строка с результатом сравнения.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacearea__calculator_1ac432cff2fb4a29091467876d13fd5f49"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>area_calculator</secondary></indexterm>
+<indexterm><primary>area_calculator</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>area_calculator.main ( )</computeroutput></para>
+<para><literallayout><computeroutput>Главная функция программы.
+
+Запрашивает у пользователя выбор действия и фигуры,
+затем выполняет соответствующие расчеты.
+</computeroutput></literallayout> </para>
+</section>
+</section>
+</section>
