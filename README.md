@@ -84,5 +84,5 @@ python main.py
 ## Документация
 
 Подробная документация представлена файлами с расширениями *.html* и *.xml*  
-**HTML:** docs/html/index.html
+**HTML:** docs/html/index.html  
 **.xml:** docs/docbook/index.xml
